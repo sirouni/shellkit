@@ -3,3 +3,5 @@
 
 /* Preserve the source aspect ratio and crop at the phone screen boundary. */
 .phone img,.screen-crop img{height:auto;top:0;transform:translateY(-13.947%)}
+
+.ai-tools{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;border-top:1px solid #cad6cb}.ai-tools figure{margin:0;max-width:320px;justify-self:center}.ai-tools .phone{width:100%}.ai-tools figcaption{margin-top:18px}@media(max-width:620px){.ai-tools{grid-template-columns:1fr;gap:28px}.ai-tools figure{max-width:265px}}
