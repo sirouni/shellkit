@@ -10,3 +10,5 @@
 .gallery .screen-crop{width:100%;max-width:320px;height:auto;aspect-ratio:1060 / 2300;margin:24px auto 0;border-radius:24px}
 
 .external-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.footer{flex-wrap:wrap}
+
+.navlinks{flex-wrap:wrap;justify-content:flex-end;gap:14px 22px}.navlinks a{white-space:nowrap}@media(max-width:850px){.nav{height:auto;min-height:88px;padding-top:18px;padding-bottom:18px;flex-wrap:wrap}.navlinks{gap:12px 18px}}@media(max-width:620px){.nav{gap:14px}.navlinks{width:100%;justify-content:flex-start;font-size:13px;gap:12px 16px}.navlinks .language{margin-left:auto}.navlinks .nav-external{font-weight:600}}
