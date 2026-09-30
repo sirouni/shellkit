@@ -1,6 +1,6 @@
-# ShellKit build 3: third-party source material
+# ShellKit builds 3–4: third-party source material
 
-This directory contains the upstream source archives, Alpine packaging files, patches, and SHA-512 checksum records corresponding to the GPL-licensed guest packages identified in the ShellKit build 3 app archive. These programs run in the bundled Alpine environment. The native ShellKit engine is Apache-2.0.
+This directory contains the upstream source archives, Alpine packaging files, patches, and SHA-512 checksum records corresponding to the GPL-licensed guest packages identified in the ShellKit builds 3 and 4 app archives. These programs run in the bundled Alpine environment. The native ShellKit engine is Apache-2.0.
 
 | Origin | Build version | Material |
 |---|---|---|
@@ -14,4 +14,4 @@ Every `APKBUILD` contains the Alpine source list and SHA-512 hashes. The source 
 
 Apache-2.0 and MIT notices for the app engine and SwiftTerm are also included here. Source questions: sirouni@gmail.com.
 
-This source material covers the identified base Alpine packages in build 3. A future app build with additional preinstalled packages needs a new matching inventory.
+This source material covers the identified base Alpine packages in builds 3 and 4. A future app build with additional preinstalled packages needs a new matching inventory.
